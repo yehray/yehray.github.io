@@ -7,10 +7,30 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+        $(document).ready(function() {
+            smoothScroll();
+        });
+    </script>
 </head>
 <body>
+    <nav class="nav-center">
+        <div class="container-fluid">
+            <ul id="navlinks">
+                <li><a href=#about>about</a></li>
+                <li><a href=#skills>skills</a></li>
+                <li><a href=#experience>experience</a></li>
+                <li><a href=#test-2>resume</a></li>
+                <li><a href=#contact-section>contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
 <div class="jumbotron">
   <div class="container text-center">
@@ -18,6 +38,8 @@
      a software engineer currently located in the Bay Area.</p>
   </div>
 </div>
+
+
 
 <div class="social-links">
     <ul>
@@ -31,7 +53,77 @@
         <a href="https://github.com/yehray" class="fa fa-github"></a>
     </li>
     </ul>
-  </div>
+</div>
+
+<div class="jumbotron" id="about">
+    <h2>About</h2>
+    <div class="container text-center">
+        I am a software engineer currently located in the Bay Area.</p>
+    </div>
+</div>
+
+
+<div class="jumbotron" id="skills">
+    <h2>Skills</h2>
+    <div class="container text-center">
+        I am a software engineer currently located in the Bay Area.</p>
+    </div>
+</div>
+
+
+<div class="jumbotron" id="experience">
+    <h2>Experience</h2>
+    <div class="container text-center">
+        I am a software engineer currently located in the Bay Area.</p>
+    </div>
+</div>
+
+  <div class="section" id="contact-section">
+    <div class="section-title">
+        <p>
+            Contact me!
+        </p>
+    </div>
+    <div class="section-content" id="contact">
+        <form class="contact">
+                <span id="name-label" class="contact-label">Name</span><br>
+                <input type="input" id="name" class="input textbox" placeholder="Bruce Wayne" />
+                <span id="email-label" class="contact-label">Email</span><br>
+                <input type="input" id="email" class="input textbox" placeholder="batman321@hotmail.com" />
+                <span id="message-label" class="contact-label">Message</span><br>
+                <textarea id="message" rows="8" class="input textbox" placeholder="You look great today."></textarea>
+                <input type="button" value="Send" id="send" class="input button"/>
+                <input type="button" value="Cancel" id="send-no" class="input button yesno"/>
+                <input type="button" value="Send" id="send-yes" class="input button yesno"/>
+        </form>
+        <div class="contact mobile-padding">
+            <div class="container">
+                <a class="contact-link gap" href="/cdn-cgi/l/email-protection#29425b405a5d4048475e40474d5a46694e44484045074a4644">
+                    <i class="icon icon-mail">&#xe802;</i>
+                    <span class="__cf_email__" data-cfemail="513a2338222538303f26383f35223e11363c30383d7f323e3c"></span>
+                </a>
+                <br>
+                <a class="contact-link gap" href="tel:14086834007">
+                    <i class="icon icon-phone">&#xe800;</i>
+                    (408) 649-0069
+                </a>
+                <br>
+                <a class="contact-link" href="https://www.google.com/maps/place/Cupertino,+CA/" target="_blank">
+                    <i class="icon icon-location">&#xe801;</i>
+                    San Jose, CA
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section-content" id="submitted">
+        <p>
+            <span class="big">Thanks<span id="firstName"></span>! </span><span class="green">Your message has been submitted.</span>
+        </p>
+        <p>
+            I'll get back to you as soon as I can.
+        </p>
+    </div>
+</div>
 
 
 
