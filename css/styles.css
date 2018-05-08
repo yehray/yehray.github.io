@@ -1,6 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 nav.nav-center ul {
     text-align: center;
+    margin: 0px;
 }
 
 nav.nav-center ul li {
@@ -10,17 +14,73 @@ nav.nav-center ul li {
 nav.nav-center ul li a {
     display: inline-block;
     margin: 10px;
+    color: black;
+    font-family: FontAwesome;
 }
 
+nav.nav-center ul li a:hover {
+    color: hotpink;
+    text-decoration: none;
+} 
+
 #navlinks{
-    font-size: 20px
+    font-size: 20px;
 }
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
+
+#intro{
+    min-height: 300px;
+    background-color: white;
+}
+
+#introText{
+    font-size: 30px;
+}
+
+#about{
+    font-family: FontAwesome;
+
+}
+
+#skills{
+    background-color: white;
+    font-family: FontAwesome;
+}
+
+
 .social-links{
     text-align: center;
 }
 
 .social-links li {
     display: inline-block;
+}
+
+.title{
+    text-align: center;
+}
+
+#projects{
+    font-family: FontAwesome;
+}
+
+#resumePage{
+    background-color: white;
+    font-family: FontAwesome;
+}
+
+#resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 .fa {
@@ -55,3 +115,45 @@ nav.nav-center ul li a {
     color: white;
   }
  
+  #contact {
+    font-size: 25px;
+    text-align: left;
+    margin: 10px 10px;
+    font-family: FontAwesome;
+  }
+
+  #emailForm{
+    margin-left:20%;/* whatever */
+  }
+
+  #contactInfo{
+    font-size: 20px;
+    margin-left:-30%;
+    color: black;
+  }
+
+  #contactInfo a {
+    vertical-align: top;
+    margin: 0 15px 45px;
+    }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: gray; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+    font-family: FontAwesome;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
