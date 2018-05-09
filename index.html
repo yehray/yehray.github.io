@@ -14,6 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
   <script src="js/scroll.js"></script>
+  <script src="js/email.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
         $(document).ready(function() {
@@ -23,213 +24,202 @@
     </script>
 </head>
 <body>
-    <nav class="nav-center">
-        <div class="container-fluid">
-            <ul id="navlinks">
-                <li><a href=#about>about</a></li>
-                <li><a href=#skills>skills</a></li>
-                <li><a href=#projects>projects</a></li>
-                <li><a href=#resume>resume</a></li>
-                <li><a href=#contact>contact</a></li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="nav-center">
+    <div class="container-fluid">
+      <ul id="navlinks">
+        <li><a href=#about>about</a></li>
+        <li><a href=#skills>skills</a></li>
+        <li><a href=#projects>projects</a></li>
+        <li><a href=#resume>resume</a></li>
+        <li><a href=#contact>contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="jumbotron vertical-center" id="intro">
-  <div class="container text-center">
-    <p id="introText">I am <strong>Raymond Yeh</strong>,
-     a software engineer currently located in the Bay Area.
-    </p>
+  <div class="jumbotron vertical-center" id="intro">
+    <div class="container text-center">
+      <p id="introText">I am <strong>Raymond Yeh</strong>,
+      a software engineer currently located in the Bay Area.
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="jumbotron" id="about">
-    <div class="title"><h2>About</h2></div>
+  <div class="jumbotron" id="about">
+      <div class="title"><h2>About</h2></div>
+      <br>
+      <div class="container text-center">
+          I am a <strong>software engineer</strong> currently located in the Bay Area.</p>
+      </div>
+  </div>
+
+
+  <div class="jumbotron" id="skills">
+    <div class="title"><h2>Skills</h2></div>
+    <br>
     <div class="container text-center">
-        I am a software engineer currently located in the Bay Area.</p>
+      <label>Python</label>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+        100%
+        </div>
+      </div>
+      <label>Java</label>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        70%
+        </div>
+      </div>
+      <label>Matlab</label>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        70%
+        </div>
+      </div>
+      <label>HTML/CSS</label>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        70%
+        </div>
+      </div>
+      <label>PHP</label>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        70%
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 
-<div class="jumbotron" id="skills">
-        <div class="title"><h2>Skills</h2></div>
-    <div class="container text-center">
-        <label>Python</label>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-            100%
-            </div>
-        </div>
-        <label>Java</label>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-            70%
-            </div>
-        </div>
-        <label>Matlab</label>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-            70%
-            </div>
-        </div>
-        <label>HTML/CSS</label>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-            70%
-            </div>
-        </div>
-        <label>PHP</label>
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-            70%
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="jumbotron" id="projects">
+  <div class="jumbotron" id="projects">
     <div class="title"><h2>Projects</h2></div>
+    <br>
     <div class="container text-center">
-            <div class="row">
-                    <div class="col-md-4">
-                      <div class="thumbnail">
-                        <a href="https://github.com/yehray/yugioh" target="_blank">
-                          <img src="images/yugioh.png" alt="Lights" style="width:100%">
-                          <div class="caption">
-                            <p>Java Based Yu-Gi-Oh! Trading Card Game</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="thumbnail">
-                        <a href="images/yugioh.png" target="_blank">
-                          <img src="images/yugioh.png" alt="Nature" style="width:100%">
-                          <div class="caption">
-                            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="thumbnail">
-                        <a href="images/fitnesstracker.png" target="_blank">
-                          <img src="images/fitnesstracker.png" alt="Fjords" style="width:100%">
-                          <div class="caption">
-                            <p>Fitness Tracker</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="https://github.com/yehray/yugioh" target="_blank">
+                  <img src="images/yugioh.png" alt="Lights" style="width:100%">
+                  <div class="caption">
+                    <p>Yu-Gi-Oh! Trading Card Game</p>
                   </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="images/yugioh.png" target="_blank">
+                  <img src="images/fitnesstracker.png" alt="Nature" style="width:100%">
+                  <div class="caption">
+                    <p>Fitness Tracker</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="images/fitnesstracker.png" target="_blank">
+                  <img src="images/fitnesstracker.png" alt="Fjords" style="width:100%">
+                  <div class="caption">
+                    <p>Lung Cancer Detection</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="https://github.com/yehray/yugioh" target="_blank">
+                    <img src="images/yugioh.png" alt="Lights" style="width:100%">
+                    <div class="caption">
+                      <p>Airport Fuel Containment</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="images/yugioh.png" target="_blank">
+                    <img src="images/yugioh.png" alt="Nature" style="width:100%">
+                    <div class="caption">
+                      <p>Grocery List Manager</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="images/fitnesstracker.png" target="_blank">
+                    <img src="images/fitnesstracker.png" alt="Fjords" style="width:100%">
+                    <div class="caption">
+                      <p>Fitness Tracker</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
         </div>
-</div>
+  </div>
 
-<div class="jumbotron" id="resumePage">
+  <div class="jumbotron" id="resumePage">
     <div class="title"><h2>Resume</h2></div>
     <div id="resume"><img src="images/2018resume-4.jpg" id="resume"></div>
-    <div class="container text-center">
-    </div>
-</div>
+    <div class="container text-center"></div>
+  </div>
 
-<div class="row" id = "contact">
-    <div class="title"><h2>Contact me!</h2></div>
-    <div class="col-sm-8" id="emailForm">
-        <form class="contactForm">
-                <label>Name</label><br>
-                <input type="input" id="name" class="input textbox" placeholder="Bruce Wayne" /><br>
-                <label>Email</label><br>
-                <input type="input" id="email" class="input textbox" placeholder="batman321@hotmail.com" /><br>
-                <label>Message</label><br>
-                <textarea id="message" rows="8" class="input textbox" placeholder="You look great today."></textarea><br>
-                <input type="button" value="Send" id="send" class="input button"/>
-                <input type="button" value="Cancel" id="send-no" class="input button yesno"/>
-                <input type="button" value="Send" id="send-yes" class="input button yesno"/>
-        </form>
-    </div>
-    <div class="col-sm-4" id="contactInfo">
-        <div>
-            <a class="contact-link gap" href="/cdn-cgi/l/email-protection#29425b405a5d4048475e40474d5a46694e44484045074a4644">
-                <span class="glyphicon glyphicon-envelope"></span>
-                yehray@gmail.com
-                <span class="__cf_email__" data-cfemail="513a2338222538303f26383f35223e11363c30383d7f323e3c"></span>
-            </a>
+  <div class="jumbotron">
+
+  <div class="row" id = "contact">
+      <div class="title"><h2>Contact me!</h2></div>
+      <br>
+        <div class="col-sm-8" id="emailForm">
+          <form class="contactForm">
+            Subject<br>
+            <textarea type="text" id="subject"  rows="1" class="input textbox" placeholder="type in subject..."></textarea><br>
             <br>
-            <a class="contact-link gap" href="tel:14086834007">
-                    <span class="glyphicon glyphicon-phone-alt"></span>
-                    (408) 649-0069
-            </a>
+            Message<br>
+            <textarea id="message" rows="8" class="input textbox" placeholder="type in message..."></textarea><br>
             <br>
-            <a class="contact-link" href="https://www.google.com/maps/place/Cupertino,+CA/" target="_blank">
-                <span class="glyphicon glyphicon-home"></span>
-                San Jose, CA
-            </a>
+            <button onclick="sendEmail(); return false" id="sendButton">Send</button>
+          </form>
+        </div>
+        <div class="col-sm-4" id="contactInfo">
+          <div>
+            <span class="glyphicon glyphicon-envelope" id="icons"></span>
+            yehray@gmail.com
+            <br>
+            <br>
+            <span class="glyphicon glyphicon-phone-alt" id="icons"></span>
+            (408) 649-0069
+            <br>
+            <br>
+            <span class="glyphicon glyphicon-home" id="icons"></span>
+            San Jose, CA
+          </div>
         </div>
     </div>
-</div>
+  </div>
 
-<!-- <div class="section" id="contact-section">
-    <div class="section-title">
-            <h2>Contact me!</h2>
-    </div>
-    <div class="section-content" id="contact">
-        <form class="contact">
-                <span id="name-label" class="contact-label">Name</span><br>
-                <input type="input" id="name" class="input textbox" placeholder="Bruce Wayne" />
-                <span id="email-label" class="contact-label">Email</span><br>
-                <input type="input" id="email" class="input textbox" placeholder="batman321@hotmail.com" />
-                <span id="message-label" class="contact-label">Message</span><br>
-                <textarea id="message" rows="8" class="input textbox" placeholder="You look great today."></textarea>
-                <input type="button" value="Send" id="send" class="input button"/>
-                <input type="button" value="Cancel" id="send-no" class="input button yesno"/>
-                <input type="button" value="Send" id="send-yes" class="input button yesno"/>
-        </form>
-        <div id="contactInfo">
-            <div class="container">
-                <a class="contact-link gap" href="/cdn-cgi/l/email-protection#29425b405a5d4048475e40474d5a46694e44484045074a4644">
-                    <span class="glyphicon glyphicon-envelope"></span>
-                    yehray@gmail.com
-                    <span class="__cf_email__" data-cfemail="513a2338222538303f26383f35223e11363c30383d7f323e3c"></span>
-                </a>
-                <br>
-                <a class="contact-link gap" href="tel:14086834007">
-                        <span class="glyphicon glyphicon-phone-alt"></span>
-                        (408) 649-0069
-                </a>
-                <br>
-                <a class="contact-link" href="https://www.google.com/maps/place/Cupertino,+CA/" target="_blank">
-                    <span class="glyphicon glyphicon-home"></span>
-                    San Jose, CA
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="section-content" id="submitted">
-        <p>
-            <span class="big">Thanks<span id="firstName"></span>! </span><span class="green">Your message has been submitted.</span>
-        </p>
-        <p>
-            I'll get back to you as soon as I can.
-        </p>
-    </div>
-</div> -->
 
-<div class="social-links">
-        <ul>
-        <li>
-            <a href="#" class="fa fa-facebook" style="font-size: 80;"></a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/yehray/" class="fa fa-linkedin"></a>
-        </li>
-        <li>
-            <a href="https://github.com/yehray" class="fa fa-github"></a>
-        </li>
-        </ul>
-</div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="footer">
+      <div class="social-links">
+          <ul>
+            <li>
+              <a href="#" class="fa fa-facebook" style="font-size: 80;"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/yehray/" class="fa fa-linkedin"></a>
+            </li>
+            <li>
+              <a href="https://github.com/yehray" class="fa fa-github"></a>
+            </li>
+          </ul>
+      </div>
+      <p>Raymond Yeh 2018</p>
+    </div>
 
 </body>
 </html>

@@ -1,5 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: HelveticaNeue-thin;
+}
+
+h2 {
+  font-weight: bold;
+  color: pink;
+}
+
+label{
+  font-family: HelveticaNeue-thin !important;
 }
 
 nav.nav-center ul {
@@ -15,11 +24,11 @@ nav.nav-center ul li a {
     display: inline-block;
     margin: 10px;
     color: black;
-    font-family: FontAwesome;
+    font-family: HelveticaNeue-thin;
 }
 
 nav.nav-center ul li a:hover {
-    color: hotpink;
+    color: lightgray;
     text-decoration: none;
 } 
 
@@ -30,7 +39,7 @@ nav.nav-center ul li a:hover {
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
-  
+
     display: flex;
     align-items: center;
   }
@@ -45,13 +54,13 @@ nav.nav-center ul li a:hover {
 }
 
 #about{
-    font-family: FontAwesome;
-
+    font-family: HelveticaNeue-thin;
+    font-size: 30px;
 }
 
 #skills{
     background-color: white;
-    font-family: FontAwesome;
+    font-family: HelveticaNeue-thin;
 }
 
 
@@ -61,6 +70,7 @@ nav.nav-center ul li a:hover {
 
 .social-links li {
     display: inline-block;
+    text-align: center;
 }
 
 .title{
@@ -68,12 +78,12 @@ nav.nav-center ul li a:hover {
 }
 
 #projects{
-    font-family: FontAwesome;
+  font-family: HelveticaNeue-thin;
 }
 
 #resumePage{
     background-color: white;
-    font-family: FontAwesome;
+    font-family: HelveticaNeue-thin;
 }
 
 #resume{
@@ -81,61 +91,97 @@ nav.nav-center ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+
 }
 
 .fa {
-    font-size: 20px !important;
-    padding: 10px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 10px;
-    border-radius: 50%;
-  }
+  font-size: 20px !important;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
   
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background:black;
-    color: white;
-  }
-  
-  
-  .fa-linkedin {
-    background: black;
-    color: white;
-  }
-  
-  .fa-github {
-    font-size: 25px !important;
-    padding: 8px;
-    background: black;
-    color: white;
-  }
- 
-  #contact {
-    font-size: 25px;
-    text-align: left;
-    margin: 10px 10px;
-    font-family: FontAwesome;
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:black;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  font-size: 25px !important;
+  padding: 8px;
+  background: black;
+  color: white;
+}
+
+#contact {
+  font-size: 25px;
+  text-align: left;
+  margin: 10px 10px;
+  font-family: HelveticaNeue-thin; 
+}
+
+#emailForm{
+  margin-left:30%;/* whatever */
+  font-family: HelveticaNeue-thin;
+}
+
+#contactInfo{
+  font-size: 20px;
+  margin-left:-40%;
+  color: black;
+  font-family: HelveticaNeue-thin;
+}
+
+#contactInfo a {
+  vertical-align: top;
+  margin: 0 15px 45px;
+  margin-top: 10px;
+  font-family: HelveticaNeue-thin;
+  color: black;
   }
 
-  #emailForm{
-    margin-left:20%;/* whatever */
-  }
+#subject{ 
+  border-radius: 10px;
+  outline: none; 
+  border: none; 
+}
 
-  #contactInfo{
-    font-size: 20px;
-    margin-left:-30%;
-    color: black;
-  }
+#message{ 
+  border-radius: 10px;
+  outline: none; 
+  border: none; 
+}
 
-  #contactInfo a {
-    vertical-align: top;
-    margin: 0 15px 45px;
-    }
+#sendButton{
+  border-radius: 10px; 
+  color: white; 
+  border: none; 
+  outline: none; 
+  font-family: HelveticaNeue-thin;
+  padding: 8px; 
+}
+
+#sendButton:hover {
+  background-color: #555;
+}
+
+#icons{
+    margin-right: 5px;
+}
+
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -151,9 +197,18 @@ nav.nav-center ul li a:hover {
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 20px; /* Increase font size */
-    font-family: FontAwesome;
-}
+    font-family: HelveticaNeue-thin;
+    opacity: 0.75;
+  }
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
 }
