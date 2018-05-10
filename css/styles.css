@@ -33,19 +33,26 @@ nav.nav-center ul li a:hover {
 } 
 
 #navlinks{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
-
     display: flex;
     align-items: center;
-  }
+}
+
+#selfPortrait{
+  border-radius: 150px; 
+  width:100; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 #intro{
-    min-height: 300px;
+    min-height: 200px;
     background-color: white;
 }
 
@@ -55,7 +62,7 @@ nav.nav-center ul li a:hover {
 
 #about{
     font-family: HelveticaNeue-thin;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #skills{
@@ -63,14 +70,20 @@ nav.nav-center ul li a:hover {
     font-family: HelveticaNeue-thin;
 }
 
-
-.social-links{
-    text-align: center;
+.progress {
+  height: 30px !important;
 }
 
-.social-links li {
-    display: inline-block;
-    text-align: center;
+label{
+  font-family: HelveticaNeue-thin;
+  font-size: 22px;
+  font-weight: normal !important;
+}
+
+.progress-bar {
+  font-family: HelveticaNeue-thin !important;
+  font-size: 20px !important;
+  padding: 4px !important;
 }
 
 .title{
@@ -79,6 +92,30 @@ nav.nav-center ul li a:hover {
 
 #projects{
   font-family: HelveticaNeue-thin;
+}
+
+.thumbnail:hover .projectImage{
+  background-color: black;
+}
+
+.thumbnail:hover img{
+  opacity: 0.7;
+}
+
+.thumbnail:hover .popup{
+  display: block;
+}
+
+.popup{
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;  
+  opacity: 0.8;
+  border-radius: 10px;
+  background-color: white;
 }
 
 #resumePage{
@@ -94,36 +131,17 @@ nav.nav-center ul li a:hover {
 
 }
 
-.fa {
+.btn {
+  background-color: gray;
+  border: none;
+  color: white;
   font-size: 20px !important;
-  padding: 10px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 10px;
-  border-radius: 50%;
-}
-  
-.fa:hover {
-    opacity: 0.7;
+  font-family: HelveticaNeue-thin;
+  width: 200px;
 }
 
-.fa-facebook {
-  background:black;
-  color: white;
-}
-
-
-.fa-linkedin {
-  background: black;
-  color: white;
-}
-
-.fa-github {
-  font-size: 25px !important;
-  padding: 8px;
-  background: black;
-  color: white;
+#btn:hover {
+  background-color: #555 !important; 
 }
 
 #contact {
@@ -172,6 +190,7 @@ nav.nav-center ul li a:hover {
   outline: none; 
   font-family: HelveticaNeue-thin;
   padding: 8px; 
+  background-color: gray;
 }
 
 #sendButton:hover {
@@ -181,7 +200,6 @@ nav.nav-center ul li a:hover {
 #icons{
     margin-right: 5px;
 }
-
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -203,6 +221,58 @@ nav.nav-center ul li a:hover {
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.social-links{
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  text-align: center;
+}
+
+.fa {
+  font-size: 20px !important;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background:black;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  font-size: 25px !important;
+  padding: 8px;
+  background: black;
+  color: white;
 }
 
 .footer {
