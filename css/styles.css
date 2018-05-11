@@ -1,5 +1,5 @@
 body {
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 h2 {
@@ -8,7 +8,7 @@ h2 {
 }
 
 label{
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif !important;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif !important;
 }
 
 nav.nav-center ul {
@@ -24,7 +24,7 @@ nav.nav-center ul li a {
     display: inline-block;
     margin: 10px;
     color: black;
-    font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+    font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 nav.nav-center ul li a:hover {
@@ -61,13 +61,14 @@ nav.nav-center ul li a:hover {
 }
 
 #about{
-    font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+    font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
+    font-weight: 50;
     font-size: 25px;
 }
 
 #skills{
     background-color: white;
-    font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+    font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 .progress {
@@ -75,13 +76,13 @@ nav.nav-center ul li a:hover {
 }
 
 label{
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: normal !important;
 }
 
 .progress-bar {
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif !important;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif !important;
   font-size: 20px !important;
   padding: 4px !important;
 }
@@ -91,7 +92,7 @@ label{
 }
 
 #projects{
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 .thumbnail:hover .projectImage{
@@ -120,7 +121,7 @@ label{
 
 #resumePage{
     background-color: white;
-    font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+    font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 #resume{
@@ -136,7 +137,7 @@ label{
   border: none;
   color: white;
   font-size: 20px !important;
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
   width: 200px;
 }
 
@@ -148,26 +149,26 @@ label{
   font-size: 25px;
   text-align: left;
   margin: 10px 10px;
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif; 
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif; 
 }
 
 #emailForm{
   margin-left:30%;/* whatever */
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 #contactInfo{
   font-size: 20px;
   margin-left:-40%;
   color: black;
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
 }
 
 #contactInfo a {
   vertical-align: top;
   margin: 0 15px 45px;
   margin-top: 10px;
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
   color: black;
   }
 
@@ -188,7 +189,7 @@ label{
   color: white; 
   border: none; 
   outline: none; 
-  font-family: HelveticaNeue-thin, Helvetica, sans-serif;
+  font-family: HelveticaNeue-thin, Raleway, Helvetica, sans-serif;
   padding: 8px; 
   background-color: gray;
 }
@@ -215,7 +216,7 @@ label{
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 20px; /* Increase font size */
-    font-family: HelveticaNeue-thin;
+    font-family: HelveticaNeue-thin, Raleway;
     opacity: 0.75;
   }
 
